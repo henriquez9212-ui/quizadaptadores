@@ -4,16 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.adaptadores"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.adaptadores"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -38,6 +34,7 @@ android {
 dependencies {
     implementation(libs.appcompat)
     implementation("com.squareup.picasso:picasso:2.71828")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)

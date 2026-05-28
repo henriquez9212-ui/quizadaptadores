@@ -36,20 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         rcPersonajes = findViewById(R.id.rcPersonajes);
 
-        // Películas con imágenes directas de TMDB (Servidor oficial de imágenes)
-        // He seleccionado títulos variados con una estética cinematográfica profesional
         listaPersonajes.add(new Personaje(
-                "Inception",
-                "https://image.tmdb.org/t/p/w780/9e3STmYmqRQUOoB3D80qT2T9phV.jpg",
-                "2010",
-                "Sci-Fi, Acción",
-                "Christopher Nolan",
-                "4.8/5"
-        ));
-
-        listaPersonajes.add(new Personaje(
-                "The Dark Knight",
-                "https://image.tmdb.org/t/p/w780/qJ2tW6WMUDp9QmSbmzXkeyzqA60.jpg",
+                "Batman: El Caballero de la Noche",
+                "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
                 "2008",
                 "Acción, Crimen",
                 "Christopher Nolan",
@@ -57,30 +46,48 @@ public class MainActivity extends AppCompatActivity {
         ));
 
         listaPersonajes.add(new Personaje(
-                "Spider-Man: Across the Spider-Verse",
-                "https://image.tmdb.org/t/p/w780/8Vt4m9rYj11RrePLnlgznJu14uX.jpg",
-                "2023",
-                "Animación, Acción",
-                "Joaquim Dos Santos",
-                "4.9/5"
+                "Avengers: Endgame",
+                "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg",
+                "2019",
+                "Acción, Sci-Fi",
+                "Anthony y Joe Russo",
+                "4.8/5"
         ));
 
         listaPersonajes.add(new Personaje(
-                "Pulp Fiction",
-                "https://image.tmdb.org/t/p/w780/d5iIl9h9btztU0ccY79sotzU7uG.jpg",
-                "1994",
-                "Crimen, Drama",
-                "Quentin Tarantino",
-                "4.6/5"
-        ));
-
-        listaPersonajes.add(new Personaje(
-                "Gladiator",
-                "https://image.tmdb.org/t/p/w780/ty8TGRvSjov6icS9CfnJSarvYvO.jpg",
-                "2000",
-                "Acción, Drama",
-                "Ridley Scott",
+                "Joker",
+                "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+                "2019",
+                "Drama, Crimen",
+                "Todd Phillips",
                 "4.7/5"
+        ));
+
+        listaPersonajes.add(new Personaje(
+                "The Matrix",
+                "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+                "1999",
+                "Sci-Fi, Acción",
+                "Lilly y Lana Wachowski",
+                "4.8/5"
+        ));
+
+        listaPersonajes.add(new Personaje(
+                "Inception",
+                "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+                "2010",
+                "Sci-Fi, Acción",
+                "Christopher Nolan",
+                "4.8/5"
+        ));
+
+        listaPersonajes.add(new Personaje(
+                "Interestelar",
+                "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+                "2014",
+                "Sci-Fi, Drama",
+                "Christopher Nolan",
+                "4.8/5"
         ));
 
         rcPersonajes.setLayoutManager(new LinearLayoutManager(this));

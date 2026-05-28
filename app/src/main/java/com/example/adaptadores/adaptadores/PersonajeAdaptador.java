@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
 import com.example.adaptadores.Clases.Personaje;
 import com.example.adaptadores.R;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -71,6 +71,7 @@ public class PersonajeAdaptador extends RecyclerView.Adapter<PersonajeAdaptador.
             txtDirector.setText("Dir: " + dato.getDirector());
             txtCalificacion.setText("★ " + dato.getCalificacion());
 
+            // Usamos Picasso con configuración robusta
             Picasso.get()
                     .load(dato.getImagen())
                     .placeholder(android.R.drawable.progress_horizontal)
